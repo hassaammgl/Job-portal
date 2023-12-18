@@ -1,12 +1,14 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-
+import { Inter } from "next/font/google";
+import Banner from "@/components/Banner";
 
 export default function Home() {
+
+
+
   return (
-   <MaxWidthWrapper className=''>
-     <div className=" py-20 mx-auto text-center  flex flex-col items-center max-w-3xl">
-        Hassaam is testing
-     </div>
-   </MaxWidthWrapper>
-  )
+    // <MaxWidthWrapper>
+    <Banner />
+    // </MaxWidthWrapper>
+  );
 }
